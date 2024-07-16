@@ -19,7 +19,7 @@ This simple project use the following libraries:
 
 ## Useful commands
 
-`docker-compose` and `docker` are ypu best friends here!
+`docker-compose` and `docker` are your best friends here!
 Check the [official documentation](https://docs.docker.com/) for more information. Here below some useful commands:
 
 ```bash
