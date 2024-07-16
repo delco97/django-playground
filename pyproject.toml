@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "django-playground"
+version = "0.1.0"
+description = ""
+authors = ["Andrea Del Corto <andrea.delcorto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.7"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest-django = "^4.8.0"
+pytest = "^8.2.2"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "server.settings.settings"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
